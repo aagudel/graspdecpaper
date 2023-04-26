@@ -6,7 +6,7 @@ How do we train a BCI to produce accurate movements such as those required for g
 We propose ProXYZ: a protocol to train accurate BCI hand control.
 
 Let's dive in🧵
-![video2](video2.mp4)
+!(video2)[video2.mp4]
 
 ## 2
 It all began with a specific question: can we apply existing, high performance methods to train a BCI for grasping? Two of such methods are ReFIT by @gilja @paul and RNNs by @david. ReFIT, for example, is beautifully simple. It suggest that decoding performance can be improved by rotating the target velocity vectors in a recalibration step
