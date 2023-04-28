@@ -11,7 +11,7 @@ How to train a BCI to produce accurate grasp movements?
 
 We present ProXYZ: a protocol to train accurate BCI grip control.
 
-A 🧵 from our preprint (url)
+A 🧵 from our new preprint! (url)
 
 ![Video2](https://aagudel.github.io/graspdecpaper/video2.gif)
 
@@ -66,7 +66,7 @@ Given this space, how to train decoders that map neural act. to such trajectorie
 ![ReFITvsReMAP](joined0.gif)
 
 ## 11
-Considering trajectories is helpful during hand state transitions as they can prevent collisions (e.g. with own fingers or to quickly prepare the hand). Using fit-to-trajectory improves accuracy and helps control in an environment with collisions.
+Considering trajectories is helpful during hand state transitions as they can prevent collisions (e.g. with own fingers or to quickly prepare the hand). Fit-to-trajectory improves accuracy and helps control in an environment with collisions.
 
 ![Collisions](collisions.png)
 
