@@ -13,7 +13,7 @@ We present ProXYZ: a protocol to train accurate BCI grip control.
 
 A 🧵 from our preprint (url)
 
-![Video2](video2.gif)
+![Video2](https://aagudel.github.io/graspdecpaper/video2.gif)
 
 ## 2
 It all began with a specific question: can we apply existing, high performance methods (e.g. @gilja @paul ReFIT or @david RNNs), to train a grasp BCI? ReFIT, for example, boosts performance with a simple trick: retrain with velocity vectors rotated to target
@@ -23,7 +23,7 @@ It all began with a specific question: can we apply existing, high performance m
 ## 3
 The problem? Implementing RNN and ReFIT out of the box, in our case, not only failed, it failed bad. Subjects were not able to control joint velocitiy and RNNs worked fine offline but misserably online.
 
-![GetFail](getfail.webp)
+![GetFail](getfail.gif)
 
 ## 4
 What happened? Our initial guess was that hand movements could be consider an extension of arm reaches. However, once we went deep into it, we realized that the problem of grasping is actually quite different.
@@ -48,7 +48,7 @@ To address these aspects, we developed ProXYZ. It comprises 4 compoments:
 ## 7
 Together, these strategies bring some sweet and accurate hand prosthesis control our monkeys quite liked (at least as we can tell from metrics such as task performance and trajectory accuracy). Here an example, using our online MuJoCo physics environment.
 
-![project1tweetprint](project1_tweetprint.gif)
+![project1tweetprint](https://aagudel.github.io/graspdecpaper/project1_tweetprint.gif)
 
 ## 8
 Why do we believe grasping is a data problem? Given the high number of degrees of freedom in hand control, only data capture methods can help describe the kinematic space that needs to be traversed to achive the myriad of possible hand configs.
@@ -58,7 +58,7 @@ Why do we believe grasping is a data problem? Given the high number of degrees o
 ## 9
 We used a full arm and hand tracking system to capture real grasps. Doing so, made us realize for example that the state switching in the joint latent space traverses a curved trajectories.
 
-![VideoTraj](videotraj0.gif)
+![VideoTraj](https://aagudel.github.io/graspdecpaper/videotraj0.gif)
 
 ## 10
 Given this space, how to train decoders that map neural act. to such trajectories? Here C3 plays an important role. Instead of reaching to a specific targets, we extended ReFIT to consider trajectories.
