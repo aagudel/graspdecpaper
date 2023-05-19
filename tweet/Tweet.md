@@ -94,6 +94,9 @@ This is in contrast to reach related areas, were velocity velocity information s
 
 ![NatPosVel](natposvel.png)
 
+## X
+Bonus: Did we mention that or method could be potentially used to study the evolution of neural latent spaces 🤔? Take a look at the preprint and let us know what you think.
+
 ## 17
 Our approach is a method to train accurate hand ctrl. But just as we gain dexterity by learning different skills, full BCI hand control will likely require different protocols. Our tiny contribution can complement other excellent approaches such as those from @(other hand BCI people).
 
